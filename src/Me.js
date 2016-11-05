@@ -35,6 +35,10 @@ class Me extends Component {
             options={["male", "female"]}
             onChange={this.handleChange} />
           <Dropdown
+              id="agegroup"
+              options={["18-24", "25-34", "35-44", "45-54", "55-64", "65+"]}
+              onChange={this.handleChange} />
+          <Dropdown
             id="state"
             options={["AL", "AK", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]} 
             onChange={this.handleChange}/>
@@ -43,6 +47,7 @@ class Me extends Component {
         <h2>Me</h2>
         <p>Race: {this.state.race}</p>
         <p>Sex: {this.state.sex}</p>
+        <p>Age: {this.state.agegroup}</p>
         <p>State: {this.state.state}</p>
       </div>
     );
