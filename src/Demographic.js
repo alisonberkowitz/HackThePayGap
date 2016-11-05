@@ -167,7 +167,7 @@ class Demographic extends Component {
 
     return (
       <div className="Demographic-wrapper">
-        <div className="col-sm-4">
+        <div className="col-sm-3">
           <Me onChange={this.loadMe}/>
           <div className="Demographic">
             <h2>Compare to:</h2>
@@ -185,7 +185,7 @@ class Demographic extends Component {
               onChange={this.handleChange}/>
           </div>
         </div>
-        <Line className="col-sm-8" data={this.state.chartdata} options={options} redraw/>
+        <Line className="col-sm-9" data={this.state.chartdata} options={options} height="200" redraw/>
       </div>
     );
   }
