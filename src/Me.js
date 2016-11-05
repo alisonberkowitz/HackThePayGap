@@ -41,8 +41,8 @@ class Me extends Component {
           <button id="save" onClick={this.handleClick}>Save</button>
         </Modal>
         <h2>Me</h2>
-        <p>Sex: {this.state.sex}</p>
         <p>Race: {this.state.race}</p>
+        <p>Sex: {this.state.sex}</p>
         <p>State: {this.state.state}</p>
       </div>
     );

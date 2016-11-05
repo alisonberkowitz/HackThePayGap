@@ -19,5 +19,15 @@
 }
 
 .Demographic {
-  padding: 20px;
+  background-color: #DCDCDC;
+  border-radius: 33px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Me {
+  background-color: #cc99ff;
+  border-radius: 33px;
+  padding: 10px;
+  margin: 10px;
 }

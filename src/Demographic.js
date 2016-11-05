@@ -97,9 +97,9 @@ class Demographic extends Component {
       datasets: [
         {
           label: "My Demographic",
-          fillColor: "rgba(0,0,220,0.5)",
-          strokeColor: "rgba(0,0,220,1)",
-          pointColor: "rgba(0,0,220,1)",
+          fillColor: "rgba(204, 153, 255, 0.5)",
+          strokeColor: "rgba(204, 153, 255, 1)",
+          pointColor: "rgba(204, 153, 255, 1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
           pointHighlightStroke: "rgba(220,220,220,1)",
@@ -109,9 +109,9 @@ class Demographic extends Component {
         },
         {
           label: "Selected Demographic",
-          fillColor: "rgba(220,0,0,0.5)",
-          strokeColor: "rgba(220,0,0,1)",
-          pointColor: "rgba(220,0,0,1)",
+          fillColor: "rgba(220,220,220,0.5)",
+          strokeColor: "rgba(105,105,105,1)",
+          pointColor: "rgba(105,105,105,1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
           pointHighlightStroke: "rgba(220,220,220,1)",
@@ -169,8 +169,8 @@ class Demographic extends Component {
       <div className="Demographic-wrapper">
         <div className="col-sm-4">
           <Me onChange={this.loadMe}/>
-          <h2>Compare to:</h2>
           <div className="Demographic">
+            <h2>Compare to:</h2>
             <Dropdown
               id="race"
               options={["white", "black", "hispanic", "asian"]}
